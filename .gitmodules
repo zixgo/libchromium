@@ -1,0 +1,57 @@
+[submodule "buildtools/third_party/libc++/trunk"]
+	path = buildtools/third_party/libc++/trunk
+	url = https://chromium.googlesource.com/external/github.com/llvm/llvm-project/libcxx.git
+[submodule "buildtools/third_party/libunwind/trunk"]
+	path = buildtools/third_party/libunwind/trunk
+	url = https://chromium.googlesource.com/external/github.com/llvm/llvm-project/libunwind.git
+[submodule "buildtools/third_party/libc++abi/trunk"]
+	path = buildtools/third_party/libc++abi/trunk
+	url = https://chromium.googlesource.com/external/github.com/llvm/llvm-project/libcxxabi.git
+[submodule "buildtools/clang_format/script"]
+	path = buildtools/clang_format/script
+	url = https://chromium.googlesource.com/external/github.com/llvm/llvm-project/clang/tools/clang-format.git
+[submodule "third_party/libjpeg_turbo"]
+	path = third_party/libjpeg_turbo
+	url = https://chromium.googlesource.com/chromium/deps/libjpeg_turbo.git
+[submodule "third_party/catapult"]
+	path = third_party/catapult
+	url = https://chromium.googlesource.com/catapult.git
+[submodule "third_party/lss"]
+	path = third_party/lss
+	url = https://chromium.googlesource.com/linux-syscall-support.git
+[submodule "third_party/perfetto"]
+	path = third_party/perfetto
+	url = https://android.googlesource.com/platform/external/perfetto.git
+[submodule "third_party/sqlite/src"]
+	path = third_party/sqlite/src
+	url = https://chromium.googlesource.com/chromium/deps/sqlite.git
+[submodule "third_party/harfbuzz-ng/src"]
+	path = third_party/harfbuzz-ng/src
+	url = https://github.com/harfbuzz/harfbuzz.git
+[submodule "third_party/googletest/src"]
+	path = third_party/googletest/src
+	url = https://chromium.googlesource.com/external/github.com/google/googletest.git
+[submodule "third_party/jsoncpp/source"]
+	path = third_party/jsoncpp/source
+	url = https://chromium.googlesource.com/external/github.com/open-source-parsers/jsoncpp.git
+[submodule "third_party/nasm"]
+	path = third_party/nasm
+	url = https://chromium.googlesource.com/chromium/deps/nasm.git
+[submodule "third_party/icu"]
+	path = third_party/icu
+	url = https://chromium.googlesource.com/chromium/deps/icu.git
+[submodule "third_party/boringssl/src"]
+	path = third_party/boringssl/src
+	url = https://boringssl.googlesource.com/boringssl.git
+[submodule "third_party/freetype/src"]
+	path = third_party/freetype/src
+	url = https://chromium.googlesource.com/chromium/src/third_party/freetype2.git
+[submodule "third_party/ced/src"]
+	path = third_party/ced/src
+	url = https://chromium.googlesource.com/external/github.com/google/compact_enc_det.git
+[submodule "third_party/fontconfig/src"]
+	path = third_party/fontconfig/src
+	url = https://chromium.googlesource.com/external/fontconfig.git
+[submodule "tools/page_cycler/acid3"]
+	path = tools/page_cycler/acid3
+	url = https://chromium.googlesource.com/chromium/deps/acid3.git

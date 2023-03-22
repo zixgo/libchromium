@@ -1,0 +1,18 @@
+executable("demo") {
+  sources = [
+    "main.cc",
+  ]
+
+  deps = [
+    "//base",
+  ]
+
+  configs -= [
+    "//build/config/compiler:chromium_code",
+    "//build/config/compiler:no_exceptions",
+  ]
+  configs += [
+    "//build/config/compiler:no_chromium_code",
+    "//build/config/compiler:exceptions",
+  ]
+}
