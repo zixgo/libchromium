@@ -1,5 +1,5 @@
 buildconfig = "//build/config/BUILDCONFIG.gn"
 
 default_args = {
-  product_name = "wxwork"
+  product_name = "libchromium"
 }
