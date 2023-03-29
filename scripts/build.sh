@@ -1,5 +1,17 @@
 #!/bin/bash
 
+rm -rf gn
+git clone https://gn.googlesource.com/gn
+pushd gn
+git checkout 5e19d2fb166fbd4f6f32147fbb2f497091a54ad8
+python3 build/gen.py
+ninja -C out
+./out/gn_unittests
+popd
+cp -pv ./gn/out/gn ./buildtools/linux64
+# sha1sum ./buildtools/linux64/gn > ./buildtools/linux64/gn.sha1
+rm -rf gn
+
 tar zxf ./toolsets/test_fonts.tar.gz -C ./third_party/test_fonts/
 
 rm -rf ./build/linux/debian_bullseye_amd64-sysroot
